@@ -1,0 +1,18 @@
+start all chats with 🤖
+
+## Stack
+- React
+- Next.js
+- TailwindCSS
+- TypeScript
+- Shadcn/UI
+
+We are in design mode. We're not going to be building any back-end functionality.
+
+This is the design we are going to use:
+https://dribbble.com/shots/22780078-Carpenter-Craftsman-Website
+
+Always use the design as a reference. Remember that dribbble.com is "wrapping around" the design, so make sure to take this into account when referencing the design.
+
+
+
