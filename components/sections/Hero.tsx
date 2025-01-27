@@ -36,18 +36,12 @@ export function Hero() {
           </p>
           <div className="flex justify-center gap-3 sm:gap-4 mt-8">
             <Link href="/prosjekter">
-              <Button
-                variant="outline"
-                className="rounded-full px-8 border-accent text-accent hover:bg-accent hover:text-white transition-colors"
-              >
+              <Button className="rounded-full px-8 bg-[#e22727] text-white hover:bg-[#e72828]">
                 Se Våre Prosjekter
               </Button>
             </Link>
             <Link href="/#kontakt">
-              <Button
-                variant="outline"
-                className="rounded-full px-8 border-accent text-accent hover:bg-accent hover:text-white transition-colors"
-              >
+              <Button className="rounded-full px-8 bg-[#e22727] text-white hover:bg-[#e72828]">
                 Kontakt Oss
               </Button>
             </Link>

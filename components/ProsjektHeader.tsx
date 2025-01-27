@@ -1,5 +1,3 @@
-import { Badge } from "@/components/ui/badge";
-
 export default function ProsjektHeader() {
   return (
     <header className="w-full pb-20 lg:pb-40 px-4 md:px-6">

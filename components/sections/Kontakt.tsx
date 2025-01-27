@@ -1,11 +1,11 @@
 import Image from "next/image";
-import KontaktSkjema from "./KontaktSkjema";
+import { HubSpotForm } from "../HubSpotForm";
 
 export async function Kontakt() {
   return (
     <section
       id="kontakt"
-      className="bg-gray-900 text-white h-full items-center flex flex-col justify-center px-6 md:px-12 py-16"
+      className="bg-gray-200 text-foreground h-full items-center flex flex-col justify-center px-6 md:px-12 py-16"
     >
       <div className="container">
         <div className="max-w-2xl mx-auto text-center mb-0 md:mb-12 xl:mb-0 relative z-10">
@@ -18,7 +18,7 @@ export async function Kontakt() {
         <div className="flex flex-col md:flex-row justify-center items-start lg:items-center text-balance text-center gap-4 ">
           <div className="max-w-4xl w-full space-y-4 mr-0 mb-4 md:mb-0">
             <Image
-              src="/team.png"
+              src="/team.svg"
               alt="team"
               width={1024}
               height={1024}
@@ -31,7 +31,9 @@ export async function Kontakt() {
               fokus på å gjøre kunden fornøyd.
             </p>
           </div>
-          <KontaktSkjema />
+          <div className="w-full max-w-md md:max-w-lg mx-auto">
+            <HubSpotForm />
+          </div>
         </div>
       </div>
     </section>
