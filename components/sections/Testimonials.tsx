@@ -140,7 +140,7 @@ export function Testimonials() {
           </h2>
         </div>
       </div>
-      <div className="relative flex pb-20 w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background md:shadow-xl">
+      <div className="relative flex pb-20 w-full flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
         <Marquee pauseOnHover className="[--duration:60s]">
           {reviews.map((review) => (
             <ReviewCard key={review.name} {...review} />

@@ -4,7 +4,7 @@ import { HubSpotForm } from "../HubSpotForm";
 export async function Kontakt() {
   return (
     <section
-      id="kontakt"
+      id="kontaktskjema"
       className="bg-gray-200 text-foreground h-full items-center flex flex-col justify-center px-6 md:px-12 py-16"
     >
       <div className="container">
@@ -15,8 +15,8 @@ export async function Kontakt() {
             </h2>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-start lg:items-center text-balance text-center gap-4 ">
-          <div className="max-w-4xl w-full space-y-4 mr-0 mb-4 md:mb-0">
+        <div className="flex flex-col md:flex-row justify-center items-start lg:items-center text-balance text-center">
+          <div className="max-w-4xl w-full mr-0 mb-4 md:mb-0">
             <Image
               src="/team.svg"
               alt="team"
