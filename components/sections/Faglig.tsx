@@ -15,7 +15,7 @@ export function Faglig() {
       <div className="container px-5 pt-8 pb-8 mx-auto flex flex-col relative">
         <div className="max-w-3xl mx-auto">
           <div className="flex flex-col sm:flex-row mt-4 relative">
-            <div className="w-96 mx-auto sm:mx-0 sm:w-1/3 text-center sm:pr-8 sm:py-8 relative">
+            <div className="w-full max-w-[280px] sm:max-w-none mx-auto sm:mx-0 sm:w-1/3 text-center sm:pr-8 sm:py-8 relative">
               <div className="rounded-lg overflow-hidden aspect-[9/16]">
                 <HeroVideoDialog
                   className="dark:hidden block z-10"

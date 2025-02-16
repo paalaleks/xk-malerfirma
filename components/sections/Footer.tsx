@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export function Footer() {
@@ -28,6 +29,15 @@ export function Footer() {
               <p>Mandag - Fredag: 07:00 - 16:00</p>
               <p>Lørdag - Søndag: Stengt</p>
               <p className="mt-4">Tilgjengelig for akutte oppdrag</p>
+            </div>
+          </div>
+          <div className="w-full md:w-fit text-center md:text-left">
+            <div className="text-gray-300">
+              <h3 className="font-bold text-xl mb-4">Informasjonskapsler</h3>
+
+              <Link href="/legal" className="underline">
+                Les mer om vår bruk av informasjonskapsler
+              </Link>
             </div>
           </div>
         </div>
